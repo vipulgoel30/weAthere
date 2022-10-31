@@ -1,0 +1,30 @@
+.rain{
+    width: 100vw;
+    height:100vh;
+    /* min-height: 100%; */ 
+    overflow-y: hidden;
+}
+
+.rain-effect{
+    height:100%;
+    width:20px;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden;
+    animation: rainEffect infinite 5s;
+    translate:0 -100%;
+}
+.rain-effect-item{
+    height:4rem;
+    width:10px;
+    background-color: yellow;
+}
+
+@keyframes rainEffect{
+    50%{
+        transform: translateY(100%);
+    }
+}

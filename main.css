@@ -1,0 +1,13 @@
+@import 'style/reset.css';
+
+/* components */
+@import 'style/header.css';
+
+
+/* logo and icons */
+@import 'style/loader.css';
+@import 'style/hamburger.css';
+
+/* seasons */
+
+@import 'style/rain.css';
