@@ -1,13 +1,29 @@
 @import 'style/reset.css';
+@import 'style/utiles.css';
+@import 'style/body.css';
 
 /* components */
-@import 'style/header.css';
+/* header */
+@import 'style/header/header.css';
+@import 'style/header/logo.css';
+@import 'style/header/hamburger.css';
+@import 'style/header/search.css';
+@import 'style/header/tempState.css';
 
+/* sidebar */
+@import 'style/sidebar.css';
+
+/* main */
+@import 'style/main/panel.css';
+/*main - main header */
+@import 'style/main/mainHeader.css';
+@import 'style/main/tempState.css';
+/* main- weather left report */
+@import 'style/main/weatherReportLeft.css';
 
 /* logo and icons */
 @import 'style/loader.css';
-@import 'style/hamburger.css';
 
 /* seasons */
 
-@import 'style/rain.css';
+/* @import 'style/rain.css'; */

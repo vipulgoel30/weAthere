@@ -1,0 +1,17 @@
+.main {
+    width: 90vw;
+    margin: 3rem auto 0;
+}
+
+
+.main-container {
+
+    border-radius: 1rem;
+    box-shadow: .2rem .2rem 1.6rem rgba(0, 0, 0, .4);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+/* weather left report */

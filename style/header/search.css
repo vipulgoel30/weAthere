@@ -1,0 +1,35 @@
+.search {
+    display: flex;
+    align-items: center;
+
+    border-radius: 3rem;
+    padding: .8rem 1rem .8rem 2rem;
+    transition: all .2s;
+    /* background-color: red; */
+}
+
+
+.search-panel {
+    border: none;
+
+    font-size: 1.5rem;
+    font-family: inherit;
+    word-spacing: .1rem;
+    width: 0;
+    transition: all .2s;
+}
+
+
+
+.search-panel::placeholder {
+    color: #888;
+}
+
+.search-panel:focus {
+    outline: none;
+}
+
+.search-icon-container,
+.cross-icon-container {
+    width: 2.5rem;
+}

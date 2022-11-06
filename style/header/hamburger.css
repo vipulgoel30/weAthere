@@ -1,0 +1,14 @@
+.hamburger {
+
+    width: 3.5rem;
+    color: #222;
+    transition: all .2s;
+}
+
+.hamburger:hover {
+    scale: 1.05;
+}
+
+.hamburger:active {
+    scale: .95;
+}

@@ -1,0 +1,21 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 0 1.5rem;
+}
+
+.location-icon {
+    width: 2.5rem;
+}
+
+.location-content {
+    font-size: 1.6rem;
+}

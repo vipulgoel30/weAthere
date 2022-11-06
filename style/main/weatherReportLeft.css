@@ -1,0 +1,42 @@
+.weather-left-report {
+    display: flex;
+    border-radius: 2rem;
+    box-shadow: .1rem .1rem 1.2rem rgba(0, 0, 0, .2);
+    padding: 2rem;
+    flex-direction: column;
+
+
+    gap: 1rem;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.weather-image {
+    width: 15rem;
+    height: 15rem;
+    align-self: center;
+}
+
+.temp-current {
+    font-size: 5.2rem;
+    font-weight: 300;
+
+}
+
+.temp-unit-current {
+    margin-left: .2rem;
+    top: 1.2rem;
+}
+
+.temp-data {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+[class^='temp-data-'] {
+    margin-left: .4rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+}

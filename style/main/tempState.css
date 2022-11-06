@@ -1,0 +1,35 @@
+:root {
+    --active-color: red;
+}
+
+.toggle-temp {
+    display: flex;
+    box-shadow: 0.2rem .2rem 1.2rem rgba(0, 0, 0, .4);
+    border-radius: 2rem;
+    align-items: center;
+}
+
+.toggle-temp button {
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    font-size: 1.6rem;
+
+    padding: .6rem 1.5rem;
+
+}
+
+.toggle-temp .toggle-temp-active {
+    color: var(--active-color);
+    border: 3px solid var(--active-color);
+}
+
+.celsius {
+    border-radius: 2rem 0 0 2rem;
+    --active-color: aqua;
+}
+
+.fahrenheit {
+    border-radius: 0 2rem 2rem 0;
+    --active-color: orangered;
+}

@@ -1,0 +1,10 @@
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.logo h1 {
+    font-size: 3.2rem;
+}

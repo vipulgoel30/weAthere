@@ -1,0 +1,49 @@
+.hidden {
+    display: none;
+}
+
+.flex-center-center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-center-base-row {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.flex-center-start-row {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.flex-even-center-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* fonts */
+.small {
+    font-size: 1.6rem;
+}
+
+/* color */
+.red {
+    background-color: red;
+}
+
+/* position */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
